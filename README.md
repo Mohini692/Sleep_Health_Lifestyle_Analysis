@@ -16,21 +16,21 @@ BMI Category: Underweight, normal, overweight, or obese
 Daily Steps: Number of steps taken per day
 Sleep Disorders: (None, Insomnia, Sleep Apnea)
 ⚙️ Methodology & Workflow
-1️⃣ Data Preprocessing
 
+1️⃣ Data Preprocessing
 Loading the Dataset: Importing and preparing the dataset for analysis.
 Data Cleaning: Handling missing values, inconsistencies, and outliers.
 Feature Selection: Removing unnecessary features to reduce overfitting.
+
 2️⃣ Statistical Analysis
-
 Summarizing numerical variables (mean, median, standard deviation).
-3️⃣ Exploratory Data Analysis (EDA)
 
+3️⃣ Exploratory Data Analysis (EDA)
 Distribution of Sleep Disorders across different occupations (Manual Labor, Office Worker, Retired, Student).
 Violin Plot: Physical activity levels vs. Sleep disorders.
 Heatmap: Correlation between age, blood pressure, stress, and health metrics.
-4️⃣ Machine Learning Models
 
+4️⃣ Machine Learning Models
 Objective: Evaluate multiple classification models to predict sleep disorders.
 Feature Importance Analysis: Identifying the most influential lifestyle factors.
 Models Tested:
@@ -38,6 +38,7 @@ Random Forest (Best Performing Model)
 Decision Tree
 Logistic Regression
 Hyperparameter Tuning: Optimizing model performance.
+
 📈 Results & Insights
 ✅ Stress levels and sleep disorders showed a strong correlation.
 ✅ Students experienced the highest stress, leading to poor sleep health.
